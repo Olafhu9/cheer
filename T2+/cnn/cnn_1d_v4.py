@@ -541,376 +541,379 @@ plt.rcParams['figure.figsize'] = [5, 5]
 #leg.get_frame().set_linewidth(0)
 #plt.show()
 #
+
+
+## draw
 #
-val = pd.DataFrame( {'real':real_event, 'pred':pred_event, 'pbb':prob_ttbb, 'pcc':prob_ttcc, 'plf':prob_ttLF} )
-val_bb = val.loc[ val['real']==0 ]
-val_cc = val.loc[ val['real']==1 ]
-val_lf = val.loc[ val['real']==2 ]
-
-val_bb0 = val_bb.loc[ val_bb['pred']==0 ].reset_index(drop=True)
-val_bb1 = val_bb.loc[ val_bb['pred']==1 ].reset_index(drop=True)
-val_bb2 = val_bb.loc[ val_bb['pred']==2 ].reset_index(drop=True)
-
-val_cc0 = val_cc.loc[ val_cc['pred']==0 ].reset_index(drop=True)
-val_cc1 = val_cc.loc[ val_cc['pred']==1 ].reset_index(drop=True)
-val_cc2 = val_cc.loc[ val_cc['pred']==2 ].reset_index(drop=True)
-
-val_lf0 = val_lf.loc[ val_lf['pred']==0 ].reset_index(drop=True)
-val_lf1 = val_lf.loc[ val_lf['pred']==1 ].reset_index(drop=True)
-val_lf2 = val_lf.loc[ val_lf['pred']==2 ].reset_index(drop=True)
-
-plt.rcParams['figure.figsize'] = [5, 5]
-bb00 = plt.hist( val_bb0['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
-bb01 = plt.hist( val_bb0['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
-bb02 = plt.hist( val_bb0['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
-plt.xlabel('Prob.', fontsize=12)
-plt.ylabel('Normalized Entries', fontsize=12)
-plt.title('Real ttbb / Pred. ttbb', fontsize=17)
-leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join(resultDir,'ttbb_0.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [5, 5]
-bb10 = plt.hist( val_bb1['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
-bb11 = plt.hist( val_bb1['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
-bb12 = plt.hist( val_bb1['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
-plt.xlabel('Prob.', fontsize=12)
-plt.ylabel('Normalized Entries', fontsize=12)
-plt.title('Real ttbb / Pred. ttcc', fontsize=17)
-leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join(resultDir,'ttbb_1.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [5, 5]
-bb20 = plt.hist( val_bb2['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
-bb21 = plt.hist( val_bb2['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
-bb22 = plt.hist( val_bb2['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
-plt.xlabel('Prob.', fontsize=12)
-plt.ylabel('Normalized Entries', fontsize=12)
-plt.title('Real ttbb / Pred. ttLF', fontsize=17)
-leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join(resultDir,'ttbb_2.png'))
-plt.show()
-
-# real ttcc
-plt.rcParams['figure.figsize'] = [5, 5]
-#creal ttcc
-plt.rcParams['figure.figsize'] = [5, 5]
-cc00 = plt.hist( val_cc0['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
-cc01 = plt.hist( val_cc0['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
-cc02 = plt.hist( val_cc0['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
-plt.xlabel('Prob.', fontsize=12)
-plt.ylabel('Normalized Entries', fontsize=12)
-plt.title('Real ttcc / Pred. ttbb', fontsize=17)
-leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join(resultDir,'ttcc_0.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [5, 5]
-cc10 = plt.hist( val_cc1['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
-cc11 = plt.hist( val_cc1['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
-cc12 = plt.hist( val_cc1['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
-plt.xlabel('Prob.', fontsize=12)
-plt.ylabel('Normalized Entries', fontsize=12)
-plt.title('Real ttcc / Pred. ttbb', fontsize=17)
-leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join(resultDir,'ttcc_1.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [5, 5]
-cc20 = plt.hist( val_cc2['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
-cc21 = plt.hist( val_cc2['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
-cc22 = plt.hist( val_cc2['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
-plt.xlabel('Prob.', fontsize=12)
-plt.ylabel('Normalized Entries', fontsize=12)
-plt.title('Real ttcc / Pred. ttLF', fontsize=17)
-leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join(resultDir,'ttcc_2.png'))
-plt.show()
-
-cc00 = plt.hist( val_cc0['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
-cc01 = plt.hist( val_cc0['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
-cc02 = plt.hist( val_cc0['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
-plt.xlabel('Prob.', fontsize=12)
-plt.ylabel('Normalized Entries', fontsize=12)
-plt.title('Real ttcc / Pred. ttbb', fontsize=17)
-leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join(resultDir,'ttcc_0.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [5, 5]
-cc10 = plt.hist( val_cc1['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
-cc11 = plt.hist( val_cc1['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
-cc12 = plt.hist( val_cc1['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
-plt.xlabel('Prob.', fontsize=12)
-plt.ylabel('Normalized Entries', fontsize=12)
-plt.title('Real ttcc / Pred. ttcc', fontsize=17)
-leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join(resultDir,'ttcc_1.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [5, 5]
-cc20 = plt.hist( val_cc2['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
-cc21 = plt.hist( val_cc2['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
-cc22 = plt.hist( val_cc2['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
-plt.xlabel('Prob.', fontsize=12)
-plt.ylabel('Normalized Entries', fontsize=12)
-plt.title('Real ttcc / Pred. ttLF', fontsize=17)
-leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join(resultDir,'ttcc_2.png'))
-plt.show()
-
-# real ttLF
-plt.rcParams['figure.figsize'] = [5, 5]
-lf00 = plt.hist( val_lf0['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
-lf01 = plt.hist( val_lf0['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
-lf02 = plt.hist( val_lf0['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
-plt.xlabel('Prob.', fontsize=12)
-plt.ylabel('Normalized Entries', fontsize=12)
-plt.title('Real ttLF / Pred. ttbb', fontsize=17)
-leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join(resultDir,'ttLF_0.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [5, 5]
-lf10 = plt.hist( val_lf1['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
-lf11 = plt.hist( val_lf1['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
-lf12 = plt.hist( val_lf1['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
-plt.xlabel('Prob.', fontsize=12)
-plt.ylabel('Normalized Entries', fontsize=12)
-plt.title('Real ttLF / Pred. ttbb', fontsize=17)
-leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join(resultDir,'ttLF_1.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [5, 5]
-lf20 = plt.hist( val_lf2['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
-lf21 = plt.hist( val_lf2['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
-lf22 = plt.hist( val_lf2['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
-plt.xlabel('Prob.', fontsize=12)
-plt.ylabel('Normalized Entries', fontsize=12)
-plt.title('Real ttLF / Pred. ttLF', fontsize=17)
-leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join(resultDir,'ttLF_2.png'))
-# real ttcc
-# real ttcc
-plt.rcParams['figure.figsize'] = [5, 5]
-cc00 = plt.hist( val_cc0['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
-cc01 = plt.hist( val_cc0['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
-cc02 = plt.hist( val_cc0['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
-plt.xlabel('Prob.', fontsize=12)
-plt.ylabel('Normalized Entries', fontsize=12)
-plt.title('Real ttcc / Pred. ttbb', fontsize=17)
-leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join(resultDir,'ttcc_0.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [5, 5]
-cc10 = plt.hist( val_cc1['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
-cc11 = plt.hist( val_cc1['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
-cc12 = plt.hist( val_cc1['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
-plt.xlabel('Prob.', fontsize=12)
-plt.ylabel('Normalized Entries', fontsize=12)
-plt.title('Real ttcc / Pred. ttbb', fontsize=17)
-leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join(resultDir,'ttcc_1.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [5, 5]
-cc20 = plt.hist( val_cc2['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
-cc21 = plt.hist( val_cc2['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
-cc22 = plt.hist( val_cc2['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
-plt.xlabel('Prob.', fontsize=12)
-plt.ylabel('Normalized Entries', fontsize=12)
-plt.title('Real ttcc / Pred. ttLF', fontsize=17)
-leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join(resultDir,'ttcc_2.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [5, 5]
-cc00 = plt.hist( val_cc0['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
-cc01 = plt.hist( val_cc0['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
-cc02 = plt.hist( val_cc0['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
-plt.xlabel('Prob.', fontsize=12)
-plt.ylabel('Normalized Entries', fontsize=12)
-plt.title('Real ttcc / Pred. ttbb', fontsize=17)
-leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join(resultDir,'ttcc_0.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [5, 5]
-cc10 = plt.hist( val_cc1['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
-cc11 = plt.hist( val_cc1['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
-cc12 = plt.hist( val_cc1['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
-plt.xlabel('Prob.', fontsize=12)
-plt.ylabel('Normalized Entries', fontsize=12)
-plt.title('Real ttcc / Pred. ttbb', fontsize=17)
-leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join(resultDir,'ttcc_1.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [5, 5]
-cc20 = plt.hist( val_cc2['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
-cc21 = plt.hist( val_cc2['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
-cc22 = plt.hist( val_cc2['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
-plt.xlabel('Prob.', fontsize=12)
-plt.ylabel('Normalized Entries', fontsize=12)
-plt.title('Real ttcc / Pred. ttLF', fontsize=17)
-leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join(resultDir,'ttcc_2.png'))
-plt.show()
-
-plt.show()
-
-
-
-
-
-
-
-
-
-
-
-plt.rcParams['figure.figsize'] = [10, 5]
-bb00 = plt.plot( val_bb0['pbb'][:200], color='royalblue' )
-bb01 = plt.plot( val_bb0['pcc'][:200], color='indianred' )
-bb02 = plt.plot( val_bb0['plf'][:200], color='mediumseagreen' )
-plt.xlabel('Event')
-plt.ylabel('Prob.')
-plt.title('ttbb Event(Pred. ttbb)')
-plt.ylim(-0.05, 1.1)
-leg = plt.legend( ['prob. ttcc', 'prob. ttcc', 'prob. ttLF'], loc='upper right',  mode='expand', ncol=3,  fontsize=11 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join('ttbb_0.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [10, 5]
-bb10 = plt.plot( val_bb1['pbb'][:200], color='royalblue' )
-bb11 = plt.plot( val_bb1['pcc2'][:200], color='indianred' )
-bb12 = plt.plot( val_bb1['plf'][:200], color='mediumseagreen' )
-plt.xlabel('Event')
-plt.ylabel('Prob.')
-plt.title('ttbb Event(Pred. ttcc)')
-plt.ylim(-0.05, 1.)
-leg = plt.legend( ['prob. ttcc', 'prob. ttcc', 'prob. ttLF'], loc='upper right',  mode='expand', ncol=3,  fontsize=11 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join('ttbb_1.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [10, 5]
-bb20 = plt.plot( val_bb2['pbb'][:200], color='royalblue' )
-bb21 = plt.plot( val_bb2['pcc2'][:200], color='indianred' )
-bb22 = plt.plot( val_bb2['plf'][:200], color='mediumseagreen' )
-plt.xlabel('Event')
-plt.ylabel('Prob.')
-plt.title('ttbb Event(Pred. ttLF)')
-plt.ylim(-0.05, 1.)
-leg = plt.legend( ['prob. ttcc', 'prob. ttcc', 'prob. ttLF'], loc='upper right',  mode='expand', ncol=3,  fontsize=11 )
-leg.get_frame().set_linewidth(0)
-plt.savefig(os.path.join('ttbb_2.png'))
-plt.show()
-
-
-
-plt.rcParams['figure.figsize'] = [10, 5]
-cc00 = plt.plot( val_cc0['pbb'][:200], color='royalblue' )
-cc01 = plt.plot( val_cc0['pcc2'][:200], color='indianred' )
-cc02 = plt.plot( val_cc0['plf'][:200], color='mediumseagreen' )
-plt.xlabel('Event')
-plt.ylabel('Prob.')
-plt.title('ttcc Event(Pred. ttbb)')
-plt.ylim(-0.05, 1.)
-leg = plt.legend( ['prob. ttbb', 'prob. ttcc', 'prob. ttLF'], loc='upper right',  mode='expand', ncol=3,  fontsize=11 )
-leg.get_frame().set_linewidth(0)
-#plt.savefig(os.path.join('ttcc_0.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [10, 5]
-cc10 = plt.plot( val_cc1['pbb'][:200], color='royalblue' )
-cc11 = plt.plot( val_cc1['pcc2'][:200], color='indianred' )
-cc12 = plt.plot( val_cc1['plf'][:200], color='mediumseagreen' )
-plt.xlabel('Event')
-plt.ylabel('Prob.')
-plt.title('ttcc Event(Pred. ttcc)')
-plt.ylim(-0.05, 1.)
-leg = plt.legend( ['prob. ttbb', 'prob. ttcc', 'prob. ttLF'], loc='upper right',  mode='expand', ncol=3,  fontsize=11 )
-leg.get_frame().set_linewidth(0)
-#plt.savefig(os.path.join('ttcc_1.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [10, 5]
-cc20 = plt.plot( val_cc2['pbb'][:200], color='royalblue' )
-cc21 = plt.plot( val_cc2['pcc2'][:200], color='indianred' )
-cc22 = plt.plot( val_cc2['plf'][:200], color='mediumseagreen' )
-plt.xlabel('Event')
-plt.ylabel('Prob.')
-plt.title('ttcc Event(Pred. ttLF)')
-plt.ylim(-0.05, 1.)
-leg = plt.legend( ['prob. ttbb', 'prob. ttcc', 'prob. ttLF'], loc='upper right',  mode='expand', ncol=3,  fontsize=11 )
-leg.get_frame().set_linewidth(0)
-#plt.savefig(os.path.join('ttcc_2.png'))
-plt.show()
-
-
-
-plt.rcParams['figure.figsize'] = [10, 5]
-lf00 = plt.plot( val_lf0['pbb'][:200], color='royalblue' )
-lf01 = plt.plot( val_lf0['pcc2'][:200], color='indianred' )
-lf02 = plt.plot( val_lf0['plf'][:200], color='mediumseagreen' )
-plt.xlabel('Event')
-plt.ylabel('Prob.')
-plt.title('ttlf Event(Pred. ttbb)')
-plt.ylim(-0.05, 1.)
-leg = plt.legend( ['prob. ttbb', 'prob. ttcc', 'prob. ttLF'], loc='upper right',  mode='expand', ncol=3,  fontsize=11 )
-leg.get_frame().set_linewidth(0)
-#plt.savefig(os.path.join('ttcc_0.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [10, 5]
-lf10 = plt.plot( val_lf1['pbb'][:200], color='royalblue' )
-lf11 = plt.plot( val_lf1['pcc2'][:200], color='indianred' )
-lf12 = plt.plot( val_lf1['plf'][:200], color='mediumseagreen' )
-plt.xlabel('Event')
-plt.ylabel('Prob.')
-plt.title('ttlf Event(Pred. ttcc)')
-plt.ylim(-0.05, 1.)
-leg = plt.legend( ['prob. ttcc', 'prob. ttcc', 'prob. ttLF'], loc='upper right',  mode='expand', ncol=3,  fontsize=11 )
-leg.get_frame().set_linewidth(0)
-#plt.savefig(os.path.join('ttlf_1.png'))
-plt.show()
-
-plt.rcParams['figure.figsize'] = [10, 5]
-lf20 = plt.plot( val_lf2['pbb'][:200], color='royalblue' )
-lf21 = plt.plot( val_lf2['pcc'][:200], color='indianred' )
-lf22 = plt.plot( val_lf2['plf'][:200], color='mediumseagreen' )
-plt.xlabel('Event')
-plt.ylabel('Prob.')
-plt.title('ttlf Event(Pred. ttLF)')
-plt.ylim(-0.05, 1.)
-leg = plt.legend( ['prob. ttcc', 'prob. ttcc', 'prob. ttLF'], loc='upper right',  mode='expand', ncol=3,  fontsize=11 )
-leg.get_frame().set_linewidth(0)
-#plt.savefig(os.path.join('ttlf_2.png'))
-plt.show()
-
-
-
-
+#val = pd.DataFrame( {'real':real_event, 'pred':pred_event, 'pbb':prob_ttbb, 'pcc':prob_ttcc, 'plf':prob_ttLF} )
+#val_bb = val.loc[ val['real']==0 ]
+#val_cc = val.loc[ val['real']==1 ]
+#val_lf = val.loc[ val['real']==2 ]
+#
+#val_bb0 = val_bb.loc[ val_bb['pred']==0 ].reset_index(drop=True)
+#val_bb1 = val_bb.loc[ val_bb['pred']==1 ].reset_index(drop=True)
+#val_bb2 = val_bb.loc[ val_bb['pred']==2 ].reset_index(drop=True)
+#
+#val_cc0 = val_cc.loc[ val_cc['pred']==0 ].reset_index(drop=True)
+#val_cc1 = val_cc.loc[ val_cc['pred']==1 ].reset_index(drop=True)
+#val_cc2 = val_cc.loc[ val_cc['pred']==2 ].reset_index(drop=True)
+#
+#val_lf0 = val_lf.loc[ val_lf['pred']==0 ].reset_index(drop=True)
+#val_lf1 = val_lf.loc[ val_lf['pred']==1 ].reset_index(drop=True)
+#val_lf2 = val_lf.loc[ val_lf['pred']==2 ].reset_index(drop=True)
+#
+#plt.rcParams['figure.figsize'] = [5, 5]
+#bb00 = plt.hist( val_bb0['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
+#bb01 = plt.hist( val_bb0['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
+#bb02 = plt.hist( val_bb0['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
+#plt.xlabel('Prob.', fontsize=12)
+#plt.ylabel('Normalized Entries', fontsize=12)
+#plt.title('Real ttbb / Pred. ttbb', fontsize=17)
+#leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join(resultDir,'ttbb_0.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [5, 5]
+#bb10 = plt.hist( val_bb1['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
+#bb11 = plt.hist( val_bb1['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
+#bb12 = plt.hist( val_bb1['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
+#plt.xlabel('Prob.', fontsize=12)
+#plt.ylabel('Normalized Entries', fontsize=12)
+#plt.title('Real ttbb / Pred. ttcc', fontsize=17)
+#leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join(resultDir,'ttbb_1.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [5, 5]
+#bb20 = plt.hist( val_bb2['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
+#bb21 = plt.hist( val_bb2['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
+#bb22 = plt.hist( val_bb2['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
+#plt.xlabel('Prob.', fontsize=12)
+#plt.ylabel('Normalized Entries', fontsize=12)
+#plt.title('Real ttbb / Pred. ttLF', fontsize=17)
+#leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join(resultDir,'ttbb_2.png'))
+#plt.show()
+#
+## real ttcc
+#plt.rcParams['figure.figsize'] = [5, 5]
+##creal ttcc
+#plt.rcParams['figure.figsize'] = [5, 5]
+#cc00 = plt.hist( val_cc0['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
+#cc01 = plt.hist( val_cc0['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
+#cc02 = plt.hist( val_cc0['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
+#plt.xlabel('Prob.', fontsize=12)
+#plt.ylabel('Normalized Entries', fontsize=12)
+#plt.title('Real ttcc / Pred. ttbb', fontsize=17)
+#leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join(resultDir,'ttcc_0.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [5, 5]
+#cc10 = plt.hist( val_cc1['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
+#cc11 = plt.hist( val_cc1['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
+#cc12 = plt.hist( val_cc1['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
+#plt.xlabel('Prob.', fontsize=12)
+#plt.ylabel('Normalized Entries', fontsize=12)
+#plt.title('Real ttcc / Pred. ttbb', fontsize=17)
+#leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join(resultDir,'ttcc_1.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [5, 5]
+#cc20 = plt.hist( val_cc2['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
+#cc21 = plt.hist( val_cc2['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
+#cc22 = plt.hist( val_cc2['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
+#plt.xlabel('Prob.', fontsize=12)
+#plt.ylabel('Normalized Entries', fontsize=12)
+#plt.title('Real ttcc / Pred. ttLF', fontsize=17)
+#leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join(resultDir,'ttcc_2.png'))
+#plt.show()
+#
+#cc00 = plt.hist( val_cc0['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
+#cc01 = plt.hist( val_cc0['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
+#cc02 = plt.hist( val_cc0['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
+#plt.xlabel('Prob.', fontsize=12)
+#plt.ylabel('Normalized Entries', fontsize=12)
+#plt.title('Real ttcc / Pred. ttbb', fontsize=17)
+#leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join(resultDir,'ttcc_0.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [5, 5]
+#cc10 = plt.hist( val_cc1['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
+#cc11 = plt.hist( val_cc1['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
+#cc12 = plt.hist( val_cc1['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
+#plt.xlabel('Prob.', fontsize=12)
+#plt.ylabel('Normalized Entries', fontsize=12)
+#plt.title('Real ttcc / Pred. ttcc', fontsize=17)
+#leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join(resultDir,'ttcc_1.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [5, 5]
+#cc20 = plt.hist( val_cc2['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
+#cc21 = plt.hist( val_cc2['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
+#cc22 = plt.hist( val_cc2['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
+#plt.xlabel('Prob.', fontsize=12)
+#plt.ylabel('Normalized Entries', fontsize=12)
+#plt.title('Real ttcc / Pred. ttLF', fontsize=17)
+#leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join(resultDir,'ttcc_2.png'))
+#plt.show()
+#
+## real ttLF
+#plt.rcParams['figure.figsize'] = [5, 5]
+#lf00 = plt.hist( val_lf0['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
+#lf01 = plt.hist( val_lf0['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
+#lf02 = plt.hist( val_lf0['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
+#plt.xlabel('Prob.', fontsize=12)
+#plt.ylabel('Normalized Entries', fontsize=12)
+#plt.title('Real ttLF / Pred. ttbb', fontsize=17)
+#leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join(resultDir,'ttLF_0.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [5, 5]
+#lf10 = plt.hist( val_lf1['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
+#lf11 = plt.hist( val_lf1['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
+#lf12 = plt.hist( val_lf1['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
+#plt.xlabel('Prob.', fontsize=12)
+#plt.ylabel('Normalized Entries', fontsize=12)
+#plt.title('Real ttLF / Pred. ttbb', fontsize=17)
+#leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join(resultDir,'ttLF_1.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [5, 5]
+#lf20 = plt.hist( val_lf2['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
+#lf21 = plt.hist( val_lf2['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
+#lf22 = plt.hist( val_lf2['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
+#plt.xlabel('Prob.', fontsize=12)
+#plt.ylabel('Normalized Entries', fontsize=12)
+#plt.title('Real ttLF / Pred. ttLF', fontsize=17)
+#leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join(resultDir,'ttLF_2.png'))
+## real ttcc
+## real ttcc
+#plt.rcParams['figure.figsize'] = [5, 5]
+#cc00 = plt.hist( val_cc0['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
+#cc01 = plt.hist( val_cc0['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
+#cc02 = plt.hist( val_cc0['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
+#plt.xlabel('Prob.', fontsize=12)
+#plt.ylabel('Normalized Entries', fontsize=12)
+#plt.title('Real ttcc / Pred. ttbb', fontsize=17)
+#leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join(resultDir,'ttcc_0.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [5, 5]
+#cc10 = plt.hist( val_cc1['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
+#cc11 = plt.hist( val_cc1['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
+#cc12 = plt.hist( val_cc1['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
+#plt.xlabel('Prob.', fontsize=12)
+#plt.ylabel('Normalized Entries', fontsize=12)
+#plt.title('Real ttcc / Pred. ttbb', fontsize=17)
+#leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join(resultDir,'ttcc_1.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [5, 5]
+#cc20 = plt.hist( val_cc2['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
+#cc21 = plt.hist( val_cc2['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
+#cc22 = plt.hist( val_cc2['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
+#plt.xlabel('Prob.', fontsize=12)
+#plt.ylabel('Normalized Entries', fontsize=12)
+#plt.title('Real ttcc / Pred. ttLF', fontsize=17)
+#leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join(resultDir,'ttcc_2.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [5, 5]
+#cc00 = plt.hist( val_cc0['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
+#cc01 = plt.hist( val_cc0['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
+#cc02 = plt.hist( val_cc0['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
+#plt.xlabel('Prob.', fontsize=12)
+#plt.ylabel('Normalized Entries', fontsize=12)
+#plt.title('Real ttcc / Pred. ttbb', fontsize=17)
+#leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join(resultDir,'ttcc_0.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [5, 5]
+#cc10 = plt.hist( val_cc1['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
+#cc11 = plt.hist( val_cc1['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
+#cc12 = plt.hist( val_cc1['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
+#plt.xlabel('Prob.', fontsize=12)
+#plt.ylabel('Normalized Entries', fontsize=12)
+#plt.title('Real ttcc / Pred. ttbb', fontsize=17)
+#leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join(resultDir,'ttcc_1.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [5, 5]
+#cc20 = plt.hist( val_cc2['pbb'], density=True, linewidth=1.5, bins=20, histtype='step', color='royalblue' )
+#cc21 = plt.hist( val_cc2['pcc'], density=True, linewidth=1.5, bins=20, histtype='step', color='indianred' )
+#cc22 = plt.hist( val_cc2['plf'], density=True, linewidth=1.5, bins=20, histtype='step', color='mediumseagreen' )
+#plt.xlabel('Prob.', fontsize=12)
+#plt.ylabel('Normalized Entries', fontsize=12)
+#plt.title('Real ttcc / Pred. ttLF', fontsize=17)
+#leg = plt.legend( ['prob.ttbb', 'prob.ttcc', 'prob.ttLF'], loc='best', fontsize=14 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join(resultDir,'ttcc_2.png'))
+#plt.show()
+#
+#plt.show()
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#plt.rcParams['figure.figsize'] = [10, 5]
+#bb00 = plt.plot( val_bb0['pbb'][:200], color='royalblue' )
+#bb01 = plt.plot( val_bb0['pcc'][:200], color='indianred' )
+#bb02 = plt.plot( val_bb0['plf'][:200], color='mediumseagreen' )
+#plt.xlabel('Event')
+#plt.ylabel('Prob.')
+#plt.title('ttbb Event(Pred. ttbb)')
+#plt.ylim(-0.05, 1.1)
+#leg = plt.legend( ['prob. ttcc', 'prob. ttcc', 'prob. ttLF'], loc='upper right',  mode='expand', ncol=3,  fontsize=11 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join('ttbb_0.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [10, 5]
+#bb10 = plt.plot( val_bb1['pbb'][:200], color='royalblue' )
+#bb11 = plt.plot( val_bb1['pcc2'][:200], color='indianred' )
+#bb12 = plt.plot( val_bb1['plf'][:200], color='mediumseagreen' )
+#plt.xlabel('Event')
+#plt.ylabel('Prob.')
+#plt.title('ttbb Event(Pred. ttcc)')
+#plt.ylim(-0.05, 1.)
+#leg = plt.legend( ['prob. ttcc', 'prob. ttcc', 'prob. ttLF'], loc='upper right',  mode='expand', ncol=3,  fontsize=11 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join('ttbb_1.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [10, 5]
+#bb20 = plt.plot( val_bb2['pbb'][:200], color='royalblue' )
+#bb21 = plt.plot( val_bb2['pcc2'][:200], color='indianred' )
+#bb22 = plt.plot( val_bb2['plf'][:200], color='mediumseagreen' )
+#plt.xlabel('Event')
+#plt.ylabel('Prob.')
+#plt.title('ttbb Event(Pred. ttLF)')
+#plt.ylim(-0.05, 1.)
+#leg = plt.legend( ['prob. ttcc', 'prob. ttcc', 'prob. ttLF'], loc='upper right',  mode='expand', ncol=3,  fontsize=11 )
+#leg.get_frame().set_linewidth(0)
+#plt.savefig(os.path.join('ttbb_2.png'))
+#plt.show()
+#
+#
+#
+#plt.rcParams['figure.figsize'] = [10, 5]
+#cc00 = plt.plot( val_cc0['pbb'][:200], color='royalblue' )
+#cc01 = plt.plot( val_cc0['pcc2'][:200], color='indianred' )
+#cc02 = plt.plot( val_cc0['plf'][:200], color='mediumseagreen' )
+#plt.xlabel('Event')
+#plt.ylabel('Prob.')
+#plt.title('ttcc Event(Pred. ttbb)')
+#plt.ylim(-0.05, 1.)
+#leg = plt.legend( ['prob. ttbb', 'prob. ttcc', 'prob. ttLF'], loc='upper right',  mode='expand', ncol=3,  fontsize=11 )
+#leg.get_frame().set_linewidth(0)
+##plt.savefig(os.path.join('ttcc_0.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [10, 5]
+#cc10 = plt.plot( val_cc1['pbb'][:200], color='royalblue' )
+#cc11 = plt.plot( val_cc1['pcc2'][:200], color='indianred' )
+#cc12 = plt.plot( val_cc1['plf'][:200], color='mediumseagreen' )
+#plt.xlabel('Event')
+#plt.ylabel('Prob.')
+#plt.title('ttcc Event(Pred. ttcc)')
+#plt.ylim(-0.05, 1.)
+#leg = plt.legend( ['prob. ttbb', 'prob. ttcc', 'prob. ttLF'], loc='upper right',  mode='expand', ncol=3,  fontsize=11 )
+#leg.get_frame().set_linewidth(0)
+##plt.savefig(os.path.join('ttcc_1.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [10, 5]
+#cc20 = plt.plot( val_cc2['pbb'][:200], color='royalblue' )
+#cc21 = plt.plot( val_cc2['pcc2'][:200], color='indianred' )
+#cc22 = plt.plot( val_cc2['plf'][:200], color='mediumseagreen' )
+#plt.xlabel('Event')
+#plt.ylabel('Prob.')
+#plt.title('ttcc Event(Pred. ttLF)')
+#plt.ylim(-0.05, 1.)
+#leg = plt.legend( ['prob. ttbb', 'prob. ttcc', 'prob. ttLF'], loc='upper right',  mode='expand', ncol=3,  fontsize=11 )
+#leg.get_frame().set_linewidth(0)
+##plt.savefig(os.path.join('ttcc_2.png'))
+#plt.show()
+#
+#
+#
+#plt.rcParams['figure.figsize'] = [10, 5]
+#lf00 = plt.plot( val_lf0['pbb'][:200], color='royalblue' )
+#lf01 = plt.plot( val_lf0['pcc2'][:200], color='indianred' )
+#lf02 = plt.plot( val_lf0['plf'][:200], color='mediumseagreen' )
+#plt.xlabel('Event')
+#plt.ylabel('Prob.')
+#plt.title('ttlf Event(Pred. ttbb)')
+#plt.ylim(-0.05, 1.)
+#leg = plt.legend( ['prob. ttbb', 'prob. ttcc', 'prob. ttLF'], loc='upper right',  mode='expand', ncol=3,  fontsize=11 )
+#leg.get_frame().set_linewidth(0)
+##plt.savefig(os.path.join('ttcc_0.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [10, 5]
+#lf10 = plt.plot( val_lf1['pbb'][:200], color='royalblue' )
+#lf11 = plt.plot( val_lf1['pcc2'][:200], color='indianred' )
+#lf12 = plt.plot( val_lf1['plf'][:200], color='mediumseagreen' )
+#plt.xlabel('Event')
+#plt.ylabel('Prob.')
+#plt.title('ttlf Event(Pred. ttcc)')
+#plt.ylim(-0.05, 1.)
+#leg = plt.legend( ['prob. ttcc', 'prob. ttcc', 'prob. ttLF'], loc='upper right',  mode='expand', ncol=3,  fontsize=11 )
+#leg.get_frame().set_linewidth(0)
+##plt.savefig(os.path.join('ttlf_1.png'))
+#plt.show()
+#
+#plt.rcParams['figure.figsize'] = [10, 5]
+#lf20 = plt.plot( val_lf2['pbb'][:200], color='royalblue' )
+#lf21 = plt.plot( val_lf2['pcc'][:200], color='indianred' )
+#lf22 = plt.plot( val_lf2['plf'][:200], color='mediumseagreen' )
+#plt.xlabel('Event')
+#plt.ylabel('Prob.')
+#plt.title('ttlf Event(Pred. ttLF)')
+#plt.ylim(-0.05, 1.)
+#leg = plt.legend( ['prob. ttcc', 'prob. ttcc', 'prob. ttLF'], loc='upper right',  mode='expand', ncol=3,  fontsize=11 )
+#leg.get_frame().set_linewidth(0)
+##plt.savefig(os.path.join('ttlf_2.png'))
+#plt.show()
+#
+#
+#
+#
