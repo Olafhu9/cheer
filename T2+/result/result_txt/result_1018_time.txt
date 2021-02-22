@@ -1,0 +1,16 @@
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 50   Layers: 4
+Epochs 100
+Dropout: 0.15
+real time: 59.984028101   cpu time: 97.9
+training samples 22421   validation samples 22415
+reco eff: 52.1712254675
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 50   Layers: 4
+Epochs 100
+Dropout: 0.15
+real time: 77.207556963   cpu time: 134.37
+training samples 22421   validation samples 22415
+reco eff: 52.4957502704

@@ -1,0 +1,8 @@
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 100   Layers: 3
+Epochs 10
+Dropout: 0.28
+real time: 12.425604105   cpu time: 23.26
+training samples 33439   validation samples 33602
+reco eff: 48.3620734839

@@ -1,0 +1,10 @@
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_pt20_comp.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 40800   validation samples 6437
+reco eff: 3473 / 6437 = 53.9537051421
+Real time: 24.8791937828   CPT time: 37.13

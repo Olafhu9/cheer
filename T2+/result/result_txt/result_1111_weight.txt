@@ -1,0 +1,160 @@
+*** only signal wieght ***
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_comp.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76
+reco eff: 15164 / 28385 = 53.4225823498
+training samples 66229   validation samples 28385
+reco eff: 53.4225823498
+best eff: 54.4
+
+%%%%%%%%%% In this case, loss is enough low to train more
+
+*** sig+bg pure ***
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_comp.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76
+reco eff: 19023 / 40596 = 46.8592964824
+training samples 94721   validation samples 40596
+reco eff: 46.8592964824
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_comp.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76
+reco eff: 12041 / 28424 = 42.362088376
+training samples 94721   validation samples 40596
+the number of each category [14100, 12964, 8049, 14204, 8801, 8072, 28531]
+reco eff: 42.362088376
+tot eff: 47.6155286235
+
+ *** sig+bg pure ***
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_comp.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76
+reco eff: 11643 / 28424 = 40.9618632142
+training samples 94721   validation samples 40596
+the number of each category [14100, 12964, 8049, 14204, 8801, 8072, 28531]
+reco eff: 40.9618632142
+tot eff: 46.7164252636
+
+ *** sig+bg weight ***
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_comp.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76
+reco eff: 15321 / 28424 = 53.9016324233
+training samples 94721   validation samples 40596
+the number of each category [14100, 12964, 8049, 14204, 8801, 8072, 28531]
+reco eff: 53.9016324233
+tot eff: 39.3240713371
+
+ *** sig+bg drop ***
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_comp.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76
+reco eff: 15062 / 28424 = 52.990430622
+training samples 56343   validation samples 40596
+the number of each category [14100, 12964, 8049, 14204, 8801, 8072, 28531]
+reco eff: 52.990430622
+tot eff: 40.0064045719
+
+ *** only sig pure ***
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_comp.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76
+reco eff: 15855 / 28385 = 55.8569667078
+training samples 66229   validation samples 28385
+the number of each category [14114, 12971, 8053, 14212, 8806, 8073]
+reco eff: 55.8569667078
+
+ *** only sig weight ***
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_comp.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76
+reco eff: 15170 / 28385 = 53.4437202748
+training samples 66229   validation samples 28385
+the number of each category [14114, 12971, 8053, 14212, 8806, 8073]
+reco eff: 53.4437202748
+
+ *** only sig drop ***
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_comp.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76
+reco eff: 15385 / 28385 = 54.2011625859
+training samples 48318   validation samples 28385
+the number of each category [14114, 12971, 8053, 14212, 8806, 8073]
+reco eff: 54.2011625859
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_comp.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76
+reco eff: 15766 / 28385 = 55.5434208209
+training samples 66229   validation samples 28385
+the number of each category [14114, 12971, 8053, 14212, 8806, 8073]
+reco eff: 55.5434208209
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_comp.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76
+reco eff: 15358 / 28385 = 54.1060419236
+training samples 66229   validation samples 28385
+the number of each category [14114, 12971, 8053, 14212, 8806, 8073]
+reco eff: 54.1060419236
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_comp.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76
+reco eff: 15430 / 28385 = 54.3596970231
+training samples 66229   validation samples 28385
+the number of each category [14114, 12971, 8053, 14212, 8806, 8073]
+reco eff: 54.3596970231
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_comp.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76
+reco eff: 15378 / 28385 = 54.1765016734
+training samples 66229   validation samples 28385
+the number of each category [14114, 12971, 8053, 14212, 8806, 8073]
+reco eff: 54.1765016734
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_comp.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76
+reco eff: 15494 / 28385 = 54.5851682227
+training samples 66229   validation samples 28385
+the number of each category [14114, 12971, 8053, 14212, 8806, 8073]
+reco eff: 54.5851682227

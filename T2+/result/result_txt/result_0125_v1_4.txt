@@ -1,0 +1,110 @@
+Nodes: 50
+Epochs 50
+Dropout 0.1
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi', 'nulep_pt', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep23', 'dRnulep24', 'dRnulep34', 'dEta12', 'dEta13', 'dEta14', 'dEta23', 'dEta24', 'dEta34', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi23', 'dPhi24', 'dPhi34', 'invm12', 'invm13', 'invm14', 'invm23', 'invm24', 'invm34', 'dR12', 'dR13', 'dR14', 'dR23', 'dR24', 'dR34', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'invmlep1', 'invmnu1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'invmlep2', 'invmnu2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'invmlep3', 'invmnu3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'invmlep4', 'invmnu4']
+event category accuracy: 66601/76104=87.5131399138
+jet permutation accuracy: 44813/76104=58.8838957216
+training samples 177573   validation samples 76104
+ttbb jet perm list [20253, 18530, 11508, 20227, 12566, 11530]
+ttcc jet perm list [9705, 10854, 11293, 10049, 10601, 11947]
+ttLF jet perm list [15100, 16039, 16620, 14012, 14506, 18337]
+Nodes: 50
+Epochs 50
+Dropout 0.1
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi', 'nulep_pt', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep23', 'dRnulep24', 'dRnulep34', 'dEta12', 'dEta13', 'dEta14', 'dEta23', 'dEta24', 'dEta34', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi23', 'dPhi24', 'dPhi34', 'invm12', 'invm13', 'invm14', 'invm23', 'invm24', 'invm34', 'dR12', 'dR13', 'dR14', 'dR23', 'dR24', 'dR34', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'invmlep1', 'invmnu1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'invmlep2', 'invmnu2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'invmlep3', 'invmnu3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'invmlep4', 'invmnu4']
+event category accuracy: 48657/58005=83.8841479183
+jet permutation accuracy: 32766/58005=56.488233773
+training samples 135342   validation samples 58005
+ttbb jet perm list [13743, 12590, 7776, 13818, 8610, 7912]
+ttcc jet perm list [9705, 10854, 11293, 10049, 10601, 11947]
+ttLF jet perm list [10549, 10866, 11080, 9657, 9926, 12371]
+Nodes: 50
+Epochs 50
+Dropout 0.1
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi', 'nulep_pt', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep23', 'dRnulep24', 'dRnulep34', 'dEta12', 'dEta13', 'dEta14', 'dEta23', 'dEta24', 'dEta34', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi23', 'dPhi24', 'dPhi34', 'invm12', 'invm13', 'invm14', 'invm23', 'invm24', 'invm34', 'dR12', 'dR13', 'dR14', 'dR23', 'dR24', 'dR34', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'invmlep1', 'invmnu1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'invmlep2', 'invmnu2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'invmlep3', 'invmnu3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'invmlep4', 'invmnu4']
+event category accuracy: 48872/58005=84.2548056202
+jet permutation accuracy: 32752/58005=56.4640979226
+training samples 135342   validation samples 58005
+ttbb jet perm list [13822, 12596, 7771, 13810, 8562, 7888]
+ttcc jet perm list [9705, 10854, 11293, 10049, 10601, 11947]
+ttLF jet perm list [10266, 10889, 11331, 9640, 9783, 12540]
+Nodes: 50
+Epochs 50
+Dropout 0.1
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi', 'nulep_pt', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep23', 'dRnulep24', 'dRnulep34', 'dEta12', 'dEta13', 'dEta14', 'dEta23', 'dEta24', 'dEta34', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi23', 'dPhi24', 'dPhi34', 'invm12', 'invm13', 'invm14', 'invm23', 'invm24', 'invm34', 'dR12', 'dR13', 'dR14', 'dR23', 'dR24', 'dR34', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'invmlep1', 'invmnu1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'invmlep2', 'invmnu2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'invmlep3', 'invmnu3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'invmlep4', 'invmnu4']
+event category accuracy: 42681/58005=73.5815877942
+jet permutation accuracy: 30253/58005=52.1558486337
+training samples 135342   validation samples 58005
+ttbb jet perm list [13775, 12625, 7861, 13764, 8583, 7841]
+ttcc jet perm list [9705, 10854, 11293, 10049, 10601, 11947]
+ttLF jet perm list [10294, 10762, 10475, 10540, 9997, 12381]
+Nodes: 50
+Epochs 5
+Dropout 0.1
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi', 'nulep_pt', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep23', 'dRnulep24', 'dRnulep34', 'dEta12', 'dEta13', 'dEta14', 'dEta23', 'dEta24', 'dEta34', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi23', 'dPhi24', 'dPhi34', 'invm12', 'invm13', 'invm14', 'invm23', 'invm24', 'invm34', 'dR12', 'dR13', 'dR14', 'dR23', 'dR24', 'dR34', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'invmlep1', 'invmnu1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'invmlep2', 'invmnu2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'invmlep3', 'invmnu3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'invmlep4', 'invmnu4']
+event category accuracy: 40927/58005=70.5577105422
+jet permutation accuracy: 24722/58005=42.6204637531
+training samples 135342   validation samples 58005
+ttbb jet perm list [13779, 12650, 7907, 13702, 8547, 7864]
+ttcc jet perm list [9705, 10854, 11293, 10049, 10601, 11947]
+ttLF jet perm list [10207, 10754, 10590, 10526, 10022, 12350]
+Nodes: 50
+Epochs 40
+Dropout 0.1
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi', 'nulep_pt', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep23', 'dRnulep24', 'dRnulep34', 'dEta12', 'dEta13', 'dEta14', 'dEta23', 'dEta24', 'dEta34', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi23', 'dPhi24', 'dPhi34', 'invm12', 'invm13', 'invm14', 'invm23', 'invm24', 'invm34', 'dR12', 'dR13', 'dR14', 'dR23', 'dR24', 'dR34', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'invmlep1', 'invmnu1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'invmlep2', 'invmnu2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'invmlep3', 'invmnu3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'invmlep4', 'invmnu4']
+event category accuracy: 42751/58005=73.7022670459
+jet permutation accuracy: 30513/58005=52.6040858547
+training samples 135342   validation samples 58005
+ttbb jet perm list [13778, 12526, 7852, 13816, 8532, 7945]
+ttcc jet perm list [9705, 10854, 11293, 10049, 10601, 11947]
+ttLF jet perm list [10043, 10855, 10637, 10580, 10062, 12272]
+Nodes: 50
+Epochs 2
+Dropout 0.1
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi', 'nulep_pt', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep23', 'dRnulep24', 'dRnulep34', 'dEta12', 'dEta13', 'dEta14', 'dEta23', 'dEta24', 'dEta34', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi23', 'dPhi24', 'dPhi34', 'invm12', 'invm13', 'invm14', 'invm23', 'invm24', 'invm34', 'dR12', 'dR13', 'dR14', 'dR23', 'dR24', 'dR34', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'invmlep1', 'invmnu1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'invmlep2', 'invmnu2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'invmlep3', 'invmnu3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'invmlep4', 'invmnu4']
+event category accuracy: 40547/58005=69.9025946039
+jet permutation accuracy: 23890/58005=41.1861046462
+training samples 135342   validation samples 58005
+ttbb jet perm list [13785, 12744, 7803, 13809, 8526, 7782]
+ttcc jet perm list [9705, 10854, 11293, 10049, 10601, 11947]
+ttLF jet perm list [10026, 10897, 10502, 10409, 10023, 12592]
+Nodes: 50
+Epochs 50
+Dropout 0.1
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi', 'nulep_pt', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep23', 'dRnulep24', 'dRnulep34', 'dEta12', 'dEta13', 'dEta14', 'dEta23', 'dEta24', 'dEta34', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi23', 'dPhi24', 'dPhi34', 'invm12', 'invm13', 'invm14', 'invm23', 'invm24', 'invm34', 'dR12', 'dR13', 'dR14', 'dR23', 'dR24', 'dR34', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'invmlep1', 'invmnu1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'invmlep2', 'invmnu2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'invmlep3', 'invmnu3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'invmlep4', 'invmnu4']
+event category accuracy: 28535/38389=74.3311886217
+jet permutation accuracy: 21965/38389=57.2169110943
+training samples 89573   validation samples 38389
+ttbb jet perm list [9124, 8333, 5107, 9127, 5738, 5225]
+ttcc jet perm list [6146, 7008, 7826, 6339, 7090, 8245]
+ttLF jet perm list [6919, 7210, 7504, 6346, 6468, 8207]
+Nodes: 50
+Epochs 50
+Dropout 0.1
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi', 'nulep_pt', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep23', 'dRnulep24', 'dRnulep34', 'dEta12', 'dEta13', 'dEta14', 'dEta23', 'dEta24', 'dEta34', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi23', 'dPhi24', 'dPhi34', 'invm12', 'invm13', 'invm14', 'invm23', 'invm24', 'invm34', 'dR12', 'dR13', 'dR14', 'dR23', 'dR24', 'dR34', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'invmlep1', 'invmnu1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'invmlep2', 'invmnu2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'invmlep3', 'invmnu3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'invmlep4', 'invmnu4']
+event category accuracy: 48855/58005=84.2254978019
+jet permutation accuracy: 32772/58005=56.4985777088
+training samples 135342   validation samples 58005
+ttbb jet perm list [13819, 12549, 7790, 13866, 8541, 7884]
+ttcc jet perm list [9705, 10854, 11293, 10049, 10601, 11947]
+ttLF jet perm list [10237, 10963, 11338, 9557, 9911, 12443]
+Nodes: 50
+Epochs 50
+Dropout 0.1
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi', 'nulep_pt', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep23', 'dRnulep24', 'dRnulep34', 'dEta12', 'dEta13', 'dEta14', 'dEta23', 'dEta24', 'dEta34', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi23', 'dPhi24', 'dPhi34', 'invm12', 'invm13', 'invm14', 'invm23', 'invm24', 'invm34', 'dR12', 'dR13', 'dR14', 'dR23', 'dR24', 'dR34', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'invmlep1', 'invmnu1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'invmlep2', 'invmnu2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'invmlep3', 'invmnu3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'invmlep4', 'invmnu4']
+event category accuracy: 48946/58005=84.3823808292
+jet permutation accuracy: 33021/58005=56.9278510473
+training samples 135342   validation samples 58005
+ttbb jet perm list [13738, 12615, 7924, 13847, 8491, 7834]
+ttcc jet perm list [9705, 10854, 11293, 10049, 10601, 11947]
+ttLF jet perm list [10324, 10774, 11432, 9454, 9849, 12616]
+Nodes: 50
+Epochs 50
+Dropout 0.1
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi', 'nulep_pt', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep23', 'dRnulep24', 'dRnulep34', 'dEta12', 'dEta13', 'dEta14', 'dEta23', 'dEta24', 'dEta34', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi23', 'dPhi24', 'dPhi34', 'invm12', 'invm13', 'invm14', 'invm23', 'invm24', 'invm34', 'dR12', 'dR13', 'dR14', 'dR23', 'dR24', 'dR34', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'invmlep1', 'invmnu1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'invmlep2', 'invmnu2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'invmlep3', 'invmnu3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'invmlep4', 'invmnu4']
+event category accuracy: 28597/38389=74.4926932194
+jet permutation accuracy: 22240/38389=57.9332621324
+training samples 89573   validation samples 38389
+ttbb jet perm list [9123, 8407, 5158, 9080, 5666, 5220]
+ttcc jet perm list [6146, 7008, 7826, 6339, 7090, 8245]
+ttLF jet perm list [6794, 7228, 7461, 6416, 6624, 8131]

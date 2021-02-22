@@ -1,0 +1,110 @@
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_global.h5
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_global.h5
+Nodes: 100
+Epochs 10
+Dropout 0.1
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi']
+reco eff: 10659 / 26383 = 40.4010158056
+training samples 61558   validation samples 26383
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_global.h5
+Nodes: 100
+Epochs 10
+Dropout 0.1
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi']
+reco eff: 10604 / 26383 = 40.1925482318
+training samples 61558   validation samples 26383
+the number of each category [13713, 12065, 7624, 13138, 7908, 7110]
+reco eff: 40.1925482318
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_global.h5
+Nodes: 100
+Epochs 10
+Dropout 0.08
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi']
+reco eff: 10479 / 26383 = 39.7187582913
+training samples 61558   validation samples 26383
+the number of each category [13713, 12065, 7624, 13138, 7908, 7110]
+reco eff: 39.7187582913
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_global.h5
+Nodes: 50
+Epochs 10
+Dropout 0.1
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi']
+reco eff: 10549 / 26383 = 39.984080658
+training samples 61558   validation samples 26383
+the number of each category [13713, 12065, 7624, 13138, 7908, 7110]
+reco eff: 39.984080658
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_global.h5
+Nodes: 50
+Epochs 10
+Dropout 0.08
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi']
+reco eff: 10688 / 26383 = 40.5109350718
+training samples 61558   validation samples 26383
+the number of each category [13713, 12065, 7624, 13138, 7908, 7110]
+reco eff: 40.5109350718
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_global.h5
+Nodes: 50
+Epochs 10
+Dropout 0.08
+nvar: ['nbjets_m', 'ngoodjets', 'Ht', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'dR12', 'dR13', 'dR14', 'dR23', 'dR24', 'dR34', 'dRlep1', 'dRlep2', 'dRlep3', 'dRlep4', 'dRnu1', 'dRnu2', 'dRnu3', 'dRnu4', 'dRnulep1', 'dRnulep2', 'dRnulep3', 'dRnulep4', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep23', 'dRnulep24', 'dRnulep34', 'dEta12', 'dEta13', 'dEta14', 'dEta23', 'dEta24', 'dEta34', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi23', 'dPhi24', 'dPhi34', 'invm12', 'invm13', 'invm14', 'invm23', 'invm24', 'invm34', 'invmlep1', 'invmlep2', 'invmlep3', 'invmlep4', 'invmnu1', 'invmnu2', 'invmnu3', 'invmnu4', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi']
+reco eff: 14785 / 26383 = 56.0398741614
+training samples 61558   validation samples 26383
+the number of each category [13713, 12065, 7624, 13138, 7908, 7110]
+reco eff: 56.0398741614
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_global.h5
+Nodes: 50
+Epochs 10
+Dropout 0.08
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi']
+reco eff: 10240 / 26383 = 38.8128719251
+training samples 61558   validation samples 26383
+the number of each category [13713, 12065, 7624, 13138, 7908, 7110]
+reco eff: 38.8128719251
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_global.h5
+Nodes: 50
+Epochs 10
+Dropout 0.08
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'dR12', 'dR13', 'dR14', 'dR23', 'dR24', 'dR34', 'dRlep1', 'dRlep2', 'dRlep3', 'dRlep4', 'dRnu1', 'dRnu2', 'dRnu3', 'dRnu4', 'dRnulep1', 'dRnulep2', 'dRnulep3', 'dRnulep4', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep23', 'dRnulep24', 'dRnulep34', 'dEta12', 'dEta13', 'dEta14', 'dEta23', 'dEta24', 'dEta34', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi23', 'dPhi24', 'dPhi34', 'invm12', 'invm13', 'invm14', 'invm23', 'invm24', 'invm34', 'invmlep1', 'invmlep2', 'invmlep3', 'invmlep4', 'invmnu1', 'invmnu2', 'invmnu3', 'invmnu4', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi']
+reco eff: 14886 / 26383 = 56.4226964333
+training samples 61558   validation samples 26383
+the number of each category [13713, 12065, 7624, 13138, 7908, 7110]
+reco eff: 56.4226964333
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_global.h5
+Nodes: 50
+Epochs 10
+Dropout 0.08
+nvar: ['nbjets_m', 'ngoodjets', 'Ht', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'dR12', 'dR13', 'dR14', 'dR23', 'dR24', 'dR34', 'dRlep1', 'dRlep2', 'dRlep3', 'dRlep4', 'dRnu1', 'dRnu2', 'dRnu3', 'dRnu4', 'dRnulep1', 'dRnulep2', 'dRnulep3', 'dRnulep4', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep23', 'dRnulep24', 'dRnulep34', 'dEta12', 'dEta13', 'dEta14', 'dEta23', 'dEta24', 'dEta34', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi23', 'dPhi24', 'dPhi34', 'invm12', 'invm13', 'invm14', 'invm23', 'invm24', 'invm34', 'invmlep1', 'invmlep2', 'invmlep3', 'invmlep4', 'invmnu1', 'invmnu2', 'invmnu3', 'invmnu4', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi']
+reco eff: 14778 / 26383 = 56.0133419247
+training samples 61558   validation samples 26383
+the number of each category [13713, 12065, 7624, 13138, 7908, 7110]
+reco eff: 56.0133419247
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_global.h5
+Nodes: 50
+Epochs 10
+Dropout 0.08
+nvar: ['nbjets_m', 'ngoodjets', 'St', 'Ht', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'dR12', 'dR13', 'dR14', 'dR23', 'dR24', 'dR34', 'dRlep1', 'dRlep2', 'dRlep3', 'dRlep4', 'dRnu1', 'dRnu2', 'dRnu3', 'dRnu4', 'dRnulep1', 'dRnulep2', 'dRnulep3', 'dRnulep4', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep23', 'dRnulep24', 'dRnulep34', 'dEta12', 'dEta13', 'dEta14', 'dEta23', 'dEta24', 'dEta34', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi23', 'dPhi24', 'dPhi34', 'invm12', 'invm13', 'invm14', 'invm23', 'invm24', 'invm34', 'invmlep1', 'invmlep2', 'invmlep3', 'invmlep4', 'invmnu1', 'invmnu2', 'invmnu3', 'invmnu4', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi']
+reco eff: 14897 / 26383 = 56.4643899481
+training samples 61558   validation samples 26383
+the number of each category [13713, 12065, 7624, 13138, 7908, 7110]
+reco eff: 56.4643899481
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_global.h5
+Nodes: 50
+Epochs 10
+Dropout 0.08
+nvar: ['nbjets_m', 'ngoodjets', 'Ht', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'dR12', 'dR13', 'dR14', 'dR23', 'dR24', 'dR34', 'dRlep1', 'dRlep2', 'dRlep3', 'dRlep4', 'dRnu1', 'dRnu2', 'dRnu3', 'dRnu4', 'dRnulep1', 'dRnulep2', 'dRnulep3', 'dRnulep4', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep23', 'dRnulep24', 'dRnulep34', 'dEta12', 'dEta13', 'dEta14', 'dEta23', 'dEta24', 'dEta34', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi23', 'dPhi24', 'dPhi34', 'invm12', 'invm13', 'invm14', 'invm23', 'invm24', 'invm34', 'invmlep1', 'invmlep2', 'invmlep3', 'invmlep4', 'invmnu1', 'invmnu2', 'invmnu3', 'invmnu4', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi']
+reco eff: 14766 / 26383 = 55.9678580904
+training samples 61558   validation samples 26383
+the number of each category [13713, 12065, 7624, 13138, 7908, 7110]
+reco eff: 55.9678580904

@@ -1,0 +1,47 @@
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_comp.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_comp.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 69048   validation samples 64368
+reco eff: 34392 / 64368 = 53.4302759135
+Real time: 50.9115450382   CPT time: 77.28
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_Ht.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 77batch size: 512
+training samples 69048   validation samples 64368
+reco eff: 34744 / 64368 = 53.9771314939
+Real time: 50.9221360683   CPT time: 76.89
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_Ht.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.15
+nvar: 77batch size: 512
+training samples 69048   validation samples 64368
+reco eff: 34675 / 64368 = 53.8699353716
+Real time: 51.4478108883   CPT time: 77.97
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_Ht.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 77batch size: 512
+training samples 69048   validation samples 64368
+reco eff: 34518 / 64368 = 53.6260253542
+Real time: 50.5316839218   CPT time: 76.26

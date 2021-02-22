@@ -1,0 +1,903 @@
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 20   Layers: 1
+Epochs 100
+Dropout: 0.15
+training samples 22421   validation samples 22415
+reco eff: 11.0261165199
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 20   Layers: 1
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 12.0305980529
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 20   Layers: 2
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 45.1707618606
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 20   Layers: 3
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 47.3728944522
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 20   Layers: 4
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 46.2061505177
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 20   Layers: 5
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.7108638541
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 20   Layers: 6
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.996754752
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 20   Layers: 7
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.2285581827
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 20   Layers: 8
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.7726781023
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 20   Layers: 9
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.012208314
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 20   Layers: 10
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 47.8133209705
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 30   Layers: 1
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 27.4996136609
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 30   Layers: 2
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 45.8970792768
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 30   Layers: 3
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 49.7295626642
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 30   Layers: 4
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.3631587081
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 30   Layers: 5
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.9890279709
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 30   Layers: 6
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 52.3180343069
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 30   Layers: 7
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.4912687374
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 30   Layers: 8
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.3863390512
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 30   Layers: 9
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.4404265183
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 30   Layers: 10
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.324524803
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 40   Layers: 1
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 42.7059187143
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 40   Layers: 2
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.3753670221
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 40   Layers: 3
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.67995673
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 40   Layers: 4
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.1821974965
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 40   Layers: 5
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.2208314016
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 40   Layers: 6
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.7153453871
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 40   Layers: 7
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.0585690002
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 40   Layers: 8
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.8930613506
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 40   Layers: 9
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.9426672848
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 40   Layers: 10
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.4017926132
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 50   Layers: 1
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 41.4309998455
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 50   Layers: 2
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 0.0
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 50   Layers: 3
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 52.2098593726
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 50   Layers: 4
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.6148972338
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 50   Layers: 5
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.9394220368
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 50   Layers: 6
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.8963065987
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 50   Layers: 7
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.7185906351
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 50   Layers: 8
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 52.1712254675
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 50   Layers: 9
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.4713336424
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 50   Layers: 10
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.8035852264
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 60   Layers: 1
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 48.1146654304
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 60   Layers: 2
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 49.7527430073
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 60   Layers: 3
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.4680883944
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 60   Layers: 4
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.9548755988
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 60   Layers: 5
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.67995673
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 60   Layers: 6
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.67995673
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 60   Layers: 7
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.2053778396
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 60   Layers: 8
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.1435635914
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 60   Layers: 9
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.2362849637
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 60   Layers: 10
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.1744707155
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 70   Layers: 1
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 49.667748416
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 70   Layers: 2
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 52.4802967084
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 70   Layers: 3
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.6998918251
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 70   Layers: 4
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.1667439345
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 70   Layers: 5
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.0431154381
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 70   Layers: 6
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.4989955185
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 70   Layers: 7
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.3940658322
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 70   Layers: 8
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.7417709782
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 70   Layers: 9
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.996754752
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 70   Layers: 10
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.2627105548
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 80   Layers: 1
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 49.8763715036
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 80   Layers: 2
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.687683511
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 80   Layers: 3
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.5299026426
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 80   Layers: 4
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.5254211096
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 80   Layers: 5
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.7417709782
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 80   Layers: 6
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.015453562
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 80   Layers: 7
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.2285581827
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 80   Layers: 8
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.6535311389
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 80   Layers: 9
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 49.7527430073
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 90   Layers: 1
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 48.7946221604
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 90   Layers: 2
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 52.1248647813
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 90   Layers: 3
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.1777159635
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 90   Layers: 4
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 49.8686447226
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 90   Layers: 5
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.1468088394
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 90   Layers: 6
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 48.655540102
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 90   Layers: 7
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 49.2659558028
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 90   Layers: 8
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.7340441972
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 90   Layers: 9
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.6335960439
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 100   Layers: 1
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.0231803431
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 100   Layers: 2
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 52.1789522485
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 100   Layers: 3
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 51.4140009272
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 100   Layers: 4
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 49.9381857518
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 100   Layers: 5
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.2549837738
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 100   Layers: 6
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.0231803431
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 100   Layers: 7
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 49.9381857518
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 100   Layers: 8
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.7649513213
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 100   Layers: 9
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.347705146
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 100   Layers: 10
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.5408746716
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 150   Layers: 1
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.0695410292
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 150   Layers: 2
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 52.0939576572
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 150   Layers: 3
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 47.7824138464
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 150   Layers: 4
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 48.0296708391
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 150   Layers: 5
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 48.2305671457
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 150   Layers: 6
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 47.7437799413
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 150   Layers: 7
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 47.3806212332
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 150   Layers: 8
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 47.7283263792
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 150   Layers: 9
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 47.975583372
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 150   Layers: 10
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 48.8950703137
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 200   Layers: 1
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 49.1964147736
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 200   Layers: 2
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.9272137228
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 200   Layers: 3
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 45.5648276928
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 200   Layers: 4
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 45.4334724154
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 200   Layers: 5
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 46.2370576418
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 200   Layers: 6
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 44.3285427291
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 200   Layers: 7
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 46.994282182
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 200   Layers: 8
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 46.1134291454
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 200   Layers: 9
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 47.3342605471
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 200   Layers: 10
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 47.9137691238
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 250   Layers: 1
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 50.7108638541
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 250   Layers: 2
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 46.9092875908
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 250   Layers: 3
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 43.3395147582
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 250   Layers: 4
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 44.1508267656
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 250   Layers: 5
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 45.1012208314
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 250   Layers: 6
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 43.4940503786
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 250   Layers: 7
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 44.8925977438
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 250   Layers: 8
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 45.2093957657
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 250   Layers: 9
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 44.3980837583
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 300   Layers: 1
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 49.5054860145
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 300   Layers: 2
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 47.7669602843
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 300   Layers: 3
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 43.0458970793
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 300   Layers: 4
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 41.9641477361
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 300   Layers: 5
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 42.620924123
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 300   Layers: 6
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 42.7909133055
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 300   Layers: 7
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 43.6485859991
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 300   Layers: 8
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 42.7909133055
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 300   Layers: 9
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 42.4277545974
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 300   Layers: 10
+Epochs 80
+Dropout: 0.08
+training samples 22421   validation samples 22415
+reco eff: 43.7799412765
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt30_comp.h5
+Nodes: 50   Layers: 4
+Epochs 200
+Dropout: 0.15
+training samples 22421   validation samples 22415
+reco eff: 52.8125482924

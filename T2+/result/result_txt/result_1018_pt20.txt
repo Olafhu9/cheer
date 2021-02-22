@@ -1,0 +1,14 @@
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt20_comp.h5
+Nodes: 70   Layers: 2
+Epochs 500
+Dropout 0.3
+training samples 37240   validation samples 27126
+reco eff: 51.3040762143
+
+trainInput /home/juhee5819/T2+/array/ttbb_pt20_comp.h5
+Nodes: 70   Layers: 2
+Epochs 500
+Dropout 0.28
+training samples 37240   validation samples 27126
+reco eff: 50.7626633349

@@ -1,0 +1,1380 @@
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 10   Layers: 1
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 1832 / 6355 = 28.8276947286
+Real time: 19.1674890518   CPT time: 32.31
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 10   Layers: 2
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 755 / 6355 = 11.8804091267
+Real time: 22.3860340118   CPT time: 35.42
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 10   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 2445 / 6355 = 38.4736428009
+Real time: 25.7469379902   CPT time: 38.85
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 10   Layers: 4
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 1651 / 6355 = 25.9795436664
+Real time: 27.6772751808   CPT time: 41.52
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 10   Layers: 5
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 1524 / 6355 = 23.9811172305
+Real time: 30.3245549202   CPT time: 43.86
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 10   Layers: 6
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 2779 / 6355 = 43.7293469709
+Real time: 31.7230689526   CPT time: 45.2
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 10   Layers: 7
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 1983 / 6355 = 31.2037765539
+Real time: 35.4495279789   CPT time: 49.06
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 10   Layers: 8
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 2347 / 6355 = 36.9315499607
+Real time: 38.3243858814   CPT time: 51.64
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 10   Layers: 9
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 2761 / 6355 = 43.4461054288
+Real time: 40.0182569027   CPT time: 53.65
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 10   Layers: 10
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 2383 / 6355 = 37.4980330448
+Real time: 43.3705079556   CPT time: 57.16
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 20   Layers: 1
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 1460 / 6355 = 22.974036192
+Real time: 19.5916488171   CPT time: 33.18
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 20   Layers: 2
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3157 / 6355 = 49.6774193548
+Real time: 22.1770279408   CPT time: 35.53
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 20   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3255 / 6355 = 51.2195121951
+Real time: 26.4473810196   CPT time: 40.29
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 20   Layers: 4
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3386 / 6355 = 53.2808811959
+Real time: 26.950499773   CPT time: 40.25
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 20   Layers: 5
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3388 / 6355 = 53.3123524784
+Real time: 29.9832549095   CPT time: 43.33
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 20   Layers: 6
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3426 / 6355 = 53.910306845
+Real time: 32.0253579617   CPT time: 45.16
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 20   Layers: 7
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3252 / 6355 = 51.1723052714
+Real time: 35.729929924   CPT time: 49.04
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 20   Layers: 8
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3284 / 6355 = 51.6758457907
+Real time: 36.9601669312   CPT time: 50.36
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 20   Layers: 9
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 2966 / 6355 = 46.6719118804
+Real time: 39.8105530739   CPT time: 53.11
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 20   Layers: 10
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 2553 / 6355 = 40.1730920535
+Real time: 42.8145952225   CPT time: 56.47
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 30   Layers: 1
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 1460 / 6355 = 22.974036192
+Real time: 19.9453229904   CPT time: 33.16
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 30   Layers: 2
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3499 / 6355 = 55.0590086546
+Real time: 22.4114818573   CPT time: 35.74
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 30   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3451 / 6355 = 54.3036978757
+Real time: 25.0064179897   CPT time: 38.32
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 30   Layers: 4
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3519 / 6355 = 55.3737214792
+Real time: 27.8749849796   CPT time: 41.93
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 30   Layers: 5
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3463 / 6355 = 54.4925255704
+Real time: 29.5453388691   CPT time: 42.69
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 30   Layers: 6
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3487 / 6355 = 54.8701809599
+Real time: 31.9709730148   CPT time: 45.41
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 30   Layers: 7
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3490 / 6355 = 54.9173878836
+Real time: 34.1474950314   CPT time: 46.75
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 30   Layers: 8
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3501 / 6355 = 55.0904799371
+Real time: 36.5023767948   CPT time: 49.83
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 30   Layers: 9
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3378 / 6355 = 53.1549960661
+Real time: 39.9900188446   CPT time: 53.52
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 30   Layers: 10
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3298 / 6355 = 51.8961447679
+Real time: 42.1669049263   CPT time: 55.86
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 40   Layers: 1
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3147 / 6355 = 49.5200629426
+Real time: 19.7863900661   CPT time: 32.78
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 40   Layers: 2
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3477 / 6355 = 54.7128245476
+Real time: 22.2443230152   CPT time: 35.4
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 40   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3484 / 6355 = 54.8229740362
+Real time: 25.761277914   CPT time: 39.09
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 40   Layers: 4
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3508 / 6355 = 55.2006294256
+Real time: 28.9257462025   CPT time: 43.13
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 40   Layers: 5
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3500 / 6355 = 55.0747442958
+Real time: 30.0225241184   CPT time: 42.73
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 40   Layers: 6
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3448 / 6355 = 54.256490952
+Real time: 31.5863089561   CPT time: 44.85
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 40   Layers: 7
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3523 / 6355 = 55.4366640441
+Real time: 34.9581530094   CPT time: 48.18
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 40   Layers: 8
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3498 / 6355 = 55.0432730134
+Real time: 37.0303611755   CPT time: 50.5
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 40   Layers: 9
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3463 / 6355 = 54.4925255704
+Real time: 38.6937048435   CPT time: 51.61
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 40   Layers: 10
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3488 / 6355 = 54.8859166011
+Real time: 40.1664030552   CPT time: 53.05
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 50   Layers: 1
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 2623 / 6355 = 41.2745869394
+Real time: 20.0109081268   CPT time: 33.33
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 50   Layers: 2
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3520 / 6355 = 55.3894571204
+Real time: 22.3767678738   CPT time: 35.38
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 50   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3534 / 6355 = 55.6097560976
+Real time: 26.440351963   CPT time: 40.04
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 50   Layers: 4
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3560 / 6355 = 56.0188827695
+Real time: 28.2353949547   CPT time: 42.29
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 50   Layers: 5
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3504 / 6355 = 55.1376868607
+Real time: 29.7873828411   CPT time: 43.03
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 50   Layers: 6
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3481 / 6355 = 54.7757671125
+Real time: 32.3209781647   CPT time: 45.57
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 50   Layers: 7
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3575 / 6355 = 56.2549173879
+Real time: 36.3531289101   CPT time: 49.69
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 50   Layers: 8
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3507 / 6355 = 55.1848937844
+Real time: 38.3260509968   CPT time: 51.42
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 50   Layers: 9
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3562 / 6355 = 56.0503540519
+Real time: 38.8249340057   CPT time: 52.43
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 50   Layers: 10
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3505 / 6355 = 55.153422502
+Real time: 43.7923800945   CPT time: 57.42
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 60   Layers: 1
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3456 / 6355 = 54.3823760818
+Real time: 19.6793048382   CPT time: 32.82
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 60   Layers: 2
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3573 / 6355 = 56.2234461054
+Real time: 21.9724829197   CPT time: 35.15
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 60   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3504 / 6355 = 55.1376868607
+Real time: 25.4743010998   CPT time: 38.89
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 60   Layers: 4
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3527 / 6355 = 55.499606609
+Real time: 29.2134468555   CPT time: 42.58
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 60   Layers: 5
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3523 / 6355 = 55.4366640441
+Real time: 30.4304058552   CPT time: 44.02
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 60   Layers: 6
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3492 / 6355 = 54.948859166
+Real time: 32.4663169384   CPT time: 45.98
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 60   Layers: 7
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3471 / 6355 = 54.6184107002
+Real time: 34.3251559734   CPT time: 47.75
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 60   Layers: 8
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3456 / 6355 = 54.3823760818
+Real time: 38.5331630707   CPT time: 51.86
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 60   Layers: 9
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3529 / 6355 = 55.5310778914
+Real time: 40.0401110649   CPT time: 52.98
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 60   Layers: 10
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3549 / 6355 = 55.845790716
+Real time: 43.3248929977   CPT time: 56.98
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 70   Layers: 1
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3440 / 6355 = 54.1306058222
+Real time: 19.823362112   CPT time: 32.76
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 70   Layers: 2
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3530 / 6355 = 55.5468135327
+Real time: 22.279102087   CPT time: 35.3
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 70   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3514 / 6355 = 55.295043273
+Real time: 25.312114954   CPT time: 38.8
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 70   Layers: 4
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3490 / 6355 = 54.9173878836
+Real time: 27.2529819012   CPT time: 40.3
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 70   Layers: 5
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3515 / 6355 = 55.3107789142
+Real time: 30.1124529839   CPT time: 43.54
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 70   Layers: 6
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3509 / 6355 = 55.2163650669
+Real time: 31.9487278461   CPT time: 45.42
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 70   Layers: 7
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3528 / 6355 = 55.5153422502
+Real time: 35.5816991329   CPT time: 49.08
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 70   Layers: 8
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3454 / 6355 = 54.3509047994
+Real time: 37.4158060551   CPT time: 50.7
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 70   Layers: 9
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3531 / 6355 = 55.5625491739
+Real time: 38.900564909   CPT time: 52.08
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 70   Layers: 10
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3492 / 6355 = 54.948859166
+Real time: 41.9999260902   CPT time: 55.66
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 80   Layers: 1
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3528 / 6355 = 55.5153422502
+Real time: 19.6674380302   CPT time: 32.7
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 80   Layers: 2
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3562 / 6355 = 56.0503540519
+Real time: 21.9058790207   CPT time: 34.87
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 80   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3552 / 6355 = 55.8929976397
+Real time: 25.4276268482   CPT time: 39.1
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 80   Layers: 4
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3549 / 6355 = 55.845790716
+Real time: 30.2195589542   CPT time: 44.92
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 80   Layers: 5
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3542 / 6355 = 55.7356412274
+Real time: 29.7906360626   CPT time: 43.18
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 80   Layers: 6
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3557 / 6355 = 55.9716758458
+Real time: 32.3028550148   CPT time: 45.67
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 80   Layers: 7
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3554 / 6355 = 55.9244689221
+Real time: 36.0182290077   CPT time: 49.63
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 80   Layers: 8
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3490 / 6355 = 54.9173878836
+Real time: 36.8673739433   CPT time: 50.23
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 80   Layers: 9
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3563 / 6355 = 56.0660896932
+Real time: 43.7488620281   CPT time: 57.46
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 90   Layers: 1
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3500 / 6355 = 55.0747442958
+Real time: 19.5404169559   CPT time: 32.91
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 90   Layers: 2
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3535 / 6355 = 55.6254917388
+Real time: 22.3125808239   CPT time: 35.44
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 90   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3496 / 6355 = 55.0118017309
+Real time: 26.1376600266   CPT time: 39.76
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 90   Layers: 4
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3542 / 6355 = 55.7356412274
+Real time: 28.9053199291   CPT time: 43.1
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 90   Layers: 5
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3535 / 6355 = 55.6254917388
+Real time: 29.8269488811   CPT time: 43.24
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 90   Layers: 6
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3527 / 6355 = 55.499606609
+Real time: 32.4841959476   CPT time: 45.82
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 90   Layers: 7
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3526 / 6355 = 55.4838709677
+Real time: 34.2926959991   CPT time: 47.8
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 90   Layers: 8
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3462 / 6355 = 54.4767899292
+Real time: 38.1251220703   CPT time: 51.59
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 90   Layers: 9
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3531 / 6355 = 55.5625491739
+Real time: 39.6574130058   CPT time: 53.12
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 100   Layers: 1
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3500 / 6355 = 55.0747442958
+Real time: 19.8260691166   CPT time: 33.04
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 100   Layers: 2
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3541 / 6355 = 55.7199055862
+Real time: 22.6000468731   CPT time: 35.53
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 100   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3544 / 6355 = 55.7671125098
+Real time: 24.9972820282   CPT time: 38.28
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 100   Layers: 4
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3464 / 6355 = 54.5082612116
+Real time: 27.9249949455   CPT time: 41.87
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 100   Layers: 5
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3502 / 6355 = 55.1062155783
+Real time: 29.7526650429   CPT time: 42.97
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 100   Layers: 6
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3478 / 6355 = 54.7285601888
+Real time: 32.1267800331   CPT time: 45.4
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 100   Layers: 7
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3494 / 6355 = 54.9803304485
+Real time: 37.9710960388   CPT time: 51.7
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 100   Layers: 8
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3471 / 6355 = 54.6184107002
+Real time: 38.1014428139   CPT time: 51.52
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 100   Layers: 9
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3498 / 6355 = 55.0432730134
+Real time: 38.4370570183   CPT time: 51.84
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 100   Layers: 10
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3487 / 6355 = 54.8701809599
+Real time: 41.7620339394   CPT time: 55.73
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 150   Layers: 1
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3498 / 6355 = 55.0432730134
+Real time: 20.1257090569   CPT time: 33.22
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 150   Layers: 2
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3559 / 6355 = 56.0031471282
+Real time: 22.5532720089   CPT time: 35.97
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 150   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3553 / 6355 = 55.9087332809
+Real time: 25.1460459232   CPT time: 38.98
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 150   Layers: 4
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3503 / 6355 = 55.1219512195
+Real time: 28.2686669827   CPT time: 41.69
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 150   Layers: 5
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3454 / 6355 = 54.3509047994
+Real time: 30.2950150967   CPT time: 43.98
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 150   Layers: 6
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3448 / 6355 = 54.256490952
+Real time: 32.1286568642   CPT time: 45.32
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 150   Layers: 7
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3556 / 6355 = 55.9559402046
+Real time: 34.585668087   CPT time: 47.96
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 150   Layers: 8
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3492 / 6355 = 54.948859166
+Real time: 36.2761678696   CPT time: 49.79
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 150   Layers: 9
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3552 / 6355 = 55.8929976397
+Real time: 38.7527651787   CPT time: 51.64
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 150   Layers: 10
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3539 / 6355 = 55.6884343037
+Real time: 42.4868121147   CPT time: 55.84
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 200   Layers: 1
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3531 / 6355 = 55.5625491739
+Real time: 19.7843968868   CPT time: 32.97
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 200   Layers: 2
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3535 / 6355 = 55.6254917388
+Real time: 22.3951001167   CPT time: 35.48
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 200   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3499 / 6355 = 55.0590086546
+Real time: 25.6081669331   CPT time: 39.3
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 200   Layers: 4
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3514 / 6355 = 55.295043273
+Real time: 28.6907818317   CPT time: 43.09
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 200   Layers: 5
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3456 / 6355 = 54.3823760818
+Real time: 29.8476660252   CPT time: 43.1
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 200   Layers: 6
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3453 / 6355 = 54.3351691581
+Real time: 32.2523999214   CPT time: 45.78
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 200   Layers: 7
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3501 / 6355 = 55.0904799371
+Real time: 34.6882688999   CPT time: 47.96
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 200   Layers: 8
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3515 / 6355 = 55.3107789142
+Real time: 36.6818819046   CPT time: 49.94
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 200   Layers: 9
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3472 / 6355 = 54.6341463415
+Real time: 41.7083380222   CPT time: 55.23
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 200   Layers: 10
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3433 / 6355 = 54.0204563336
+Real time: 43.6291139126   CPT time: 56.56
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 250   Layers: 1
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3513 / 6355 = 55.2793076318
+Real time: 20.1514050961   CPT time: 33.19
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 250   Layers: 2
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3496 / 6355 = 55.0118017309
+Real time: 22.2017159462   CPT time: 35.78
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 250   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3488 / 6355 = 54.8859166011
+Real time: 25.7882637978   CPT time: 39.16
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 250   Layers: 4
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3448 / 6355 = 54.256490952
+Real time: 27.4580271244   CPT time: 40.54
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 250   Layers: 5
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3459 / 6355 = 54.4295830055
+Real time: 29.7605559826   CPT time: 43.0
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 250   Layers: 6
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3437 / 6355 = 54.0833988985
+Real time: 32.6378440857   CPT time: 46.06
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 250   Layers: 7
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3494 / 6355 = 54.9803304485
+Real time: 34.7219700813   CPT time: 48.34
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 250   Layers: 8
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3456 / 6355 = 54.3823760818
+Real time: 37.018996954   CPT time: 50.68
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 250   Layers: 9
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3452 / 6355 = 54.3194335169
+Real time: 39.5116779804   CPT time: 52.92
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 250   Layers: 10
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3491 / 6355 = 54.9331235248
+Real time: 42.8816549778   CPT time: 56.43
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 300   Layers: 1
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3486 / 6355 = 54.8544453186
+Real time: 20.0309119225   CPT time: 33.5
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 300   Layers: 2
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3468 / 6355 = 54.5712037766
+Real time: 23.6399450302   CPT time: 36.4
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 300   Layers: 3
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3483 / 6355 = 54.807238395
+Real time: 25.2636339664   CPT time: 38.7
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 300   Layers: 4
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3500 / 6355 = 55.0747442958
+Real time: 29.6357779503   CPT time: 44.17
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 300   Layers: 5
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3409 / 6355 = 53.6428009441
+Real time: 30.3196468353   CPT time: 43.66
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 300   Layers: 6
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3306 / 6355 = 52.0220298977
+Real time: 31.5751359463   CPT time: 44.73
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 300   Layers: 7
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3460 / 6355 = 54.4453186467
+Real time: 34.5723969936   CPT time: 48.0
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 300   Layers: 8
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3386 / 6355 = 53.2808811959
+Real time: 38.1005060673   CPT time: 51.67
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 300   Layers: 9
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3379 / 6355 = 53.1707317073
+Real time: 39.1119470596   CPT time: 52.16
+
+Train signal only 
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt30_comp.h5
+Nodes: 300   Layers: 10
+Epochs 50
+Dropout 0.1
+nvar: 76batch size: 512
+training samples 37212   validation samples 6355
+reco eff: 3397 / 6355 = 53.4539732494
+Real time: 42.9636781216   CPT time: 56.99

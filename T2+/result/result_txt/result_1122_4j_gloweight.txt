@@ -1,0 +1,10 @@
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_global.h5
+Nodes: 150   Layers: 2
+Epochs 50
+Dropout 0.1
+nvar: 80
+reco eff: 14259 / 26383 = 54.0461660918
+training samples 61558   validation samples 26383
+the number of each category [13713, 12065, 7624, 13138, 7908, 7110]
+reco eff: 54.0461660918

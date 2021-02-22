@@ -1,0 +1,48 @@
+
+v4_3
+Nodes: 50
+Epochs 15
+Dropout 0.1
+var: ['ngoodjets', 'nulep_pt', 'St', 'Ht', 'ncjets_m', 'nbjets_m', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi', 'dR12', 'dR13', 'dR14', 'dR15', 'dR16', 'dR23', 'dR24', 'dR25', 'dR26', 'dR34', 'dR35', 'dR36', 'dR45', 'dR46', 'dR56', 'dEta12', 'dEta13', 'dEta14', 'dEta15', 'dEta16', 'dEta23', 'dEta24', 'dEta25', 'dEta26', 'dEta34', 'dEta35', 'dEta36', 'dEta45', 'dEta46', 'dEta56', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi15', 'dPhi16', 'dPhi23', 'dPhi24', 'dPhi25', 'dPhi26', 'dPhi34', 'dPhi35', 'dPhi36', 'dPhi45', 'dPhi46', 'dPhi56', 'invm12', 'invm13', 'invm14', 'invm15', 'invm16', 'invm23', 'invm24', 'invm25', 'invm26', 'invm34', 'invm35', 'invm36', 'invm45', 'invm46', 'invm56', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep15', 'dRnulep16', 'dRnulep23', 'dRnulep24', 'dRnulep25', 'dRnulep26', 'dRnulep34', 'dRnulep35', 'dRnulep36', 'dRnulep45', 'dRnulep46', 'dRnulep56', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'invmlep1', 'invmnu1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'invmlep2', 'invmnu2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'invmlep3', 'invmnu3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'invmlep4', 'invmnu4', 'jet5_pt', 'jet5_eta', 'jet5_e', 'jet5_m', 'jet5_btag', 'jet5_CvsB', 'jet5_CvsL', 'dRlep5', 'dRnu5', 'dRnulep5', 'invmlep5', 'invmnu5', 'jet6_pt', 'jet6_eta', 'jet6_e', 'jet6_m', 'jet6_btag', 'jet6_CvsB', 'jet6_CvsL', 'dRlep6', 'dRnu6', 'dRnulep6', 'invmlep6', 'invmnu6']
+nvar: 158
+event acc: 39681/65697=60.40001826567423
+jet acc: 21937/65697=33.39117463506705
+ttbb acc: 7707/22653=34.02198384319958
+ttcc acc: 5366/20121=26.668654639431438
+ttLF acc: 8864/22923=38.66858613619509
+training samples 153290   validation samples 65697
+ttbb jet perm list [14946, 5827, 5747, 6419, 6208, 1883, 6208, 6832, 2026, 1944, 6034, 6497, 1850, 1788, 1745]
+ttcc jet perm list [440, 725, 644, 4341, 4157, 9635, 658, 4017, 9087, 8421, 560, 3459, 7231, 6747, 6957]
+ttLF jet perm list [4, 191, 138, 891, 754, 19175, 102, 565, 15735, 14192, 55, 312, 8910, 7938, 6992]
+
+v4_3
+Nodes: 50
+Epochs 20
+Dropout 0.1
+var: ['ngoodjets', 'nulep_pt', 'St', 'Ht', 'ncjets_m', 'nbjets_m', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi', 'dR12', 'dR13', 'dR14', 'dR15', 'dR16', 'dR23', 'dR24', 'dR25', 'dR26', 'dR34', 'dR35', 'dR36', 'dR45', 'dR46', 'dR56', 'dEta12', 'dEta13', 'dEta14', 'dEta15', 'dEta16', 'dEta23', 'dEta24', 'dEta25', 'dEta26', 'dEta34', 'dEta35', 'dEta36', 'dEta45', 'dEta46', 'dEta56', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi15', 'dPhi16', 'dPhi23', 'dPhi24', 'dPhi25', 'dPhi26', 'dPhi34', 'dPhi35', 'dPhi36', 'dPhi45', 'dPhi46', 'dPhi56', 'invm12', 'invm13', 'invm14', 'invm15', 'invm16', 'invm23', 'invm24', 'invm25', 'invm26', 'invm34', 'invm35', 'invm36', 'invm45', 'invm46', 'invm56', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep15', 'dRnulep16', 'dRnulep23', 'dRnulep24', 'dRnulep25', 'dRnulep26', 'dRnulep34', 'dRnulep35', 'dRnulep36', 'dRnulep45', 'dRnulep46', 'dRnulep56', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'invmlep1', 'invmnu1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'invmlep2', 'invmnu2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'invmlep3', 'invmnu3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'invmlep4', 'invmnu4', 'jet5_pt', 'jet5_eta', 'jet5_e', 'jet5_m', 'jet5_btag', 'jet5_CvsB', 'jet5_CvsL', 'dRlep5', 'dRnu5', 'dRnulep5', 'invmlep5', 'invmnu5', 'jet6_pt', 'jet6_eta', 'jet6_e', 'jet6_m', 'jet6_btag', 'jet6_CvsB', 'jet6_CvsL', 'dRlep6', 'dRnu6', 'dRnulep6', 'invmlep6', 'invmnu6']
+nvar: 158
+event acc: 39737/65697=60.4852580787555
+jet acc: 22474/65697=34.20856355693563
+ttbb acc: 8025/22868=35.092705964666784
+ttcc acc: 5401/20081=26.89607091280315
+ttLF acc: 9048/22748=39.77492526815544
+training samples 153290   validation samples 65697
+ttbb jet perm list [14946, 5827, 5747, 6419, 6208, 1883, 6208, 6832, 2026, 1944, 6034, 6497, 1850, 1788, 1745]
+ttcc jet perm list [440, 725, 644, 4341, 4157, 9635, 658, 4017, 9087, 8421, 560, 3459, 7231, 6747, 6957]
+ttLF jet perm list [8, 202, 139, 871, 730, 19538, 98, 585, 15654, 13805, 54, 286, 8957, 7966, 7061]
+
+v4_4
+Nodes: 50
+Epochs 30
+Dropout 0.1
+var: ['ngoodjets', 'nulep_pt', 'St', 'Ht', 'ncjets_m', 'nbjets_m', 'lepton_pt', 'lepton_eta', 'lepton_e', 'MET', 'MET_phi', 'dR12', 'dR13', 'dR14', 'dR15', 'dR16', 'dR23', 'dR24', 'dR25', 'dR26', 'dR34', 'dR35', 'dR36', 'dR45', 'dR46', 'dR56', 'dEta12', 'dEta13', 'dEta14', 'dEta15', 'dEta16', 'dEta23', 'dEta24', 'dEta25', 'dEta26', 'dEta34', 'dEta35', 'dEta36', 'dEta45', 'dEta46', 'dEta56', 'dPhi12', 'dPhi13', 'dPhi14', 'dPhi15', 'dPhi16', 'dPhi23', 'dPhi24', 'dPhi25', 'dPhi26', 'dPhi34', 'dPhi35', 'dPhi36', 'dPhi45', 'dPhi46', 'dPhi56', 'invm12', 'invm13', 'invm14', 'invm15', 'invm16', 'invm23', 'invm24', 'invm25', 'invm26', 'invm34', 'invm35', 'invm36', 'invm45', 'invm46', 'invm56', 'dRnulep12', 'dRnulep13', 'dRnulep14', 'dRnulep15', 'dRnulep16', 'dRnulep23', 'dRnulep24', 'dRnulep25', 'dRnulep26', 'dRnulep34', 'dRnulep35', 'dRnulep36', 'dRnulep45', 'dRnulep46', 'dRnulep56', 'jet1_pt', 'jet1_eta', 'jet1_e', 'jet1_m', 'jet1_btag', 'jet1_CvsB', 'jet1_CvsL', 'dRlep1', 'dRnu1', 'dRnulep1', 'invmlep1', 'invmnu1', 'jet2_pt', 'jet2_eta', 'jet2_e', 'jet2_m', 'jet2_btag', 'jet2_CvsB', 'jet2_CvsL', 'dRlep2', 'dRnu2', 'dRnulep2', 'invmlep2', 'invmnu2', 'jet3_pt', 'jet3_eta', 'jet3_e', 'jet3_m', 'jet3_btag', 'jet3_CvsB', 'jet3_CvsL', 'dRlep3', 'dRnu3', 'dRnulep3', 'invmlep3', 'invmnu3', 'jet4_pt', 'jet4_eta', 'jet4_e', 'jet4_m', 'jet4_btag', 'jet4_CvsB', 'jet4_CvsL', 'dRlep4', 'dRnu4', 'dRnulep4', 'invmlep4', 'invmnu4', 'jet5_pt', 'jet5_eta', 'jet5_e', 'jet5_m', 'jet5_btag', 'jet5_CvsB', 'jet5_CvsL', 'dRlep5', 'dRnu5', 'dRnulep5', 'invmlep5', 'invmnu5', 'jet6_pt', 'jet6_eta', 'jet6_e', 'jet6_m', 'jet6_btag', 'jet6_CvsB', 'jet6_CvsL', 'dRlep6', 'dRnu6', 'dRnulep6', 'invmlep6', 'invmnu6']
+nvar: 158
+event acc: 39888/65697=60.71510114617106
+jet acc: 22841/65697=34.76718876052179
+ttbb acc: 7900/22831=34.602076124567475
+ttcc acc: 5481/20081=27.294457447338278
+ttLF acc: 9460/22785=41.51854290103138
+training samples 153290   validation samples 65697
+ttbb jet perm list [14946, 5827, 5747, 6419, 6208, 1883, 6208, 6832, 2026, 1944, 6034, 6497, 1850, 1788, 1745]
+ttcc jet perm list [440, 725, 644, 4341, 4157, 9635, 658, 4017, 9087, 8421, 560, 3459, 7231, 6747, 6957]
+ttLF jet perm list [7, 200, 134, 866, 714, 19378, 88, 563, 15613, 14125, 45, 289, 8867, 7971, 7094]

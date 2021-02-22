@@ -1,0 +1,30 @@
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_global.h5
+Nodes: 750   Layers: 1
+Epochs 50
+Dropout 0.1
+nvar: 80
+reco eff: 5240 / 26383 = 19.8612743054
+training samples 61558   validation samples 26383
+the number of each category [13713, 12065, 7624, 13138, 7908, 7110]
+reco eff: 19.8612743054
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_global.h5
+Nodes: 750   Layers: 2
+Epochs 50
+Dropout 0.1
+nvar: 80
+reco eff: 5922 / 26383 = 22.4462722207
+training samples 61558   validation samples 26383
+the number of each category [13713, 12065, 7624, 13138, 7908, 7110]
+reco eff: 22.4462722207
+
+trainInput /home/juhee5819/T2+/array/ttbb_2018_4f_pt20_global.h5
+Nodes: 750   Layers: 1
+Epochs 50
+Dropout 0.1
+nvar: 80
+reco eff: 5240 / 26383 = 19.8612743054
+training samples 61558   validation samples 26383
+the number of each category [13713, 12065, 7624, 13138, 7908, 7110]
+reco eff: 19.8612743054
